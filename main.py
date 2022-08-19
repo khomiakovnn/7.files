@@ -71,7 +71,7 @@ def main():
 
     # print(make_dict())  # Задача №1
     # print(get_shop_list_by_dishes(['Омлет', 'Фахитос'], 2))  # Задача №2
-    string_processing(['lines_1.txt', 'lines_2.txt', 'lines_3.txt'], 'result.txt') # Задача №3
+    # string_processing(['lines_1.txt', 'lines_2.txt', 'lines_3.txt'], 'result.txt') # Задача №3
 
 
 if __name__ == "__main__":

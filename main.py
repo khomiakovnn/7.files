@@ -1,5 +1,5 @@
 def make_dict():
-    """Configure dictionary from file"""
+    """Configure dictionary cook_book from file"""
 
     recipes = read_file()
     cook_book = {}
@@ -31,7 +31,6 @@ def get_shop_list_by_dishes(dishes, person_count):
                     'measure': ingridient['measure'],
                     'quantity': int(ingridient['quantity']) * person_count
                 }
-
     return shop_list
 
 
